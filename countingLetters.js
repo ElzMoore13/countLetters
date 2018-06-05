@@ -1,8 +1,5 @@
-
 function countLetters(aString){
   uniqueLetters = {};
-  var currentKeys = [];
-  var letter = '';
 
   aString = aString.split(" ").join("").toLowerCase();
 
